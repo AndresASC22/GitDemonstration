@@ -8,3 +8,5 @@ class Foo:
 
 obj = Foo("Philip", "Blue")
 obj.printFoo()
+
+print("Hello World")

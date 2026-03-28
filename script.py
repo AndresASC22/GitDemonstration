@@ -7,9 +7,9 @@ class Foo:
     
     def printFoo(self):
         print("Foo name is " + self.name + " foo color is " + self.color + " foo size is " + self.size +
-                " and age is " + self.age)
+                " and age is " + str(self.age))
 
-obj = Foo("Philip", "Blue", "large", "20")
+obj = Foo("Philip", "Blue", "large", 20)
 obj.printFoo()
 
 print("Hello World")
